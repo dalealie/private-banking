@@ -6,6 +6,7 @@ A Flask-based REST API for managing employees, clients, products, transactions, 
 ## Installation
 ```bash
 pip install -r requirements.txt
+```
 
 ## Configuration
 To configure the database:
@@ -17,6 +18,8 @@ Environment variables needed:
 - ```MYSQL_USER```: MySQL username (e.g., root)
 - ```MYSQL_PASSWORD```: MySQL password
 - ```MYSQL_DB```: Name of the database (e.g., mini_private_banking)
+
+
 
 ## API Endpoints
 | Endpoint | Method | Description |
@@ -46,7 +49,10 @@ Environment variables needed:
 ## Git Commit Guidelines
 Use conventional commits:
 ```bash
+feat: add user authentication
 feat: add employee management feature
 fix: resolve database connection issue
 docs: update API documentation
 test: add transaction validation tests
+feat: add user authentication
+```
